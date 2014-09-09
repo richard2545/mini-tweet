@@ -1,0 +1,56 @@
+These are some basic instructions for setting up and running minitweet on a
+Linux server:-
+
+Install minitweet.php into a directory on the Linux server (Your home
+directory might be a good one).
+
+To run minitweet, type 'minitweet.php' at the shell prompt. You don't need the
+quotes.
+
+All commands are entered though, and results displayed on the console.
+
+Minitweet is driven by entering commands at the command prompt '> '. Commands
+always begin with a user's name and are terminated by pressing the return key.
+The only exception to this is when a blank line is entered which causes
+minitweet to terminate.
+
+To display messages posted by a particular user, just enter their name as the
+command.
+
+Example:-
+> Peter
+I'm looking forward to the football match tonight. (1 minute ago)
+It's a lovely sunny day (7 minutes ago)
+>
+
+
+All other commands have a space then symbols or a word that determine the type
+of the command (the command-type). This immediately follows the users name.
+
+
+To post a new message use a command-type of '->' followed by a space and then
+the message they wish to post.
+
+Example:-
+> Derek -> I wonder if it will rain tonight.
+>
+
+
+A user can follow anther by using a command-type of 'follows'. This is followed
+by a space and then the name of the user they wish to follow.
+
+Example:-
+> Peter follows Derek
+>
+
+
+To see a list of messages for a particular user and the messages for anyone they
+follow, user a command-type of 'wall'.
+
+Example:-
+> Peter wall
+Derek - I wonder if it will rain tonight. (3 minutes ago)
+Peter - I'm looking forward to the football match tonight. (14 minutes ago)
+Peter - It's a lovely sunny day (20 minutes ago)
+>
+

@@ -1,0 +1,11 @@
+#This is a list of commands for testing the miniterm.php application.
+Alice -> I love the weather today
+Bob -> Damn! We lost!
+Bob -> Good game though.
+Alice
+Bob
+Charlie -> I'm in New York today! Anyone wants to have a coffee?
+Charlie follows Alice
+Charlie wall
+Charlie follows Bob
+Charlie wall
